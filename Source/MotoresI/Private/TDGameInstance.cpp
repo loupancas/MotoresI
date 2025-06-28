@@ -18,8 +18,9 @@ UTDGameInstance::UTDGameInstance()
 
 void UTDGameInstance :: Init()
 {
-	Super::Init();
 	LoadMain();
+	Super::Init();
+	
 }
 
 int32 UTDGameInstance::GetSaveSlot()
